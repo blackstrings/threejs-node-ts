@@ -1,0 +1,41 @@
+{
+  "name": "@dew/threejs",
+  "version": "1.0.4",
+  "description": "a 2d and 3d framework",
+  "main": "src/index.js",
+  "files": [
+    "built",
+    "src"
+  ],
+  "scripts": {
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "test": "karma start"
+  },
+  "author": "xai lao",
+  "license": "ISC",
+  "dependencies": {
+    "@types/three": "^0.84.0",
+    "three": "0.84.0"
+  },
+  "devDependencies": {
+    "@types/es6-collections": "^0.5.29",
+    "@types/es6-promise": "0.0.32",
+    "@types/jasmine": "^2.5.46",
+    "browserify": "^14.1.0",
+    "jasmine": "^2.5.3",
+    "jasmine-spec-reporter": "^3.2.0",
+    "karma": "^1.5.0",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-requirejs": "^1.1.0",
+    "karma-typescript-preprocessor": "^0.3.1",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.3",
+    "tsify": "^3.0.1",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1",
+    "watchify": "^3.9.0"
+  }
+}

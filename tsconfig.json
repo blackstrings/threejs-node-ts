@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "build/",
+        "sourceMap": true, 
+        "target": "es5",
+        "lib": [
+            "es2016",
+            "dom"
+        ]
+    }, 
+    "files": [
+        "./src/Enums.ts", 
+        "./src/index.ts", 
+        "./src/Threejs.ts",
+        "./test/Threejs.spec.ts",
+        "./test/Utils.spec.ts"
+    ],
+    "exclude": [
+      "typings"
+    ]
+}
