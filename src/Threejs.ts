@@ -15,13 +15,10 @@ import {
 import {
   CanvasFactory,
   DisplayCanvas,
-  DeckDesign3dCanvas,
-  DeckDesign2dCanvas,
-  DeckLandingPageCanvas,
-  DeckFinal3dCanvas,
-  DeckLevelHeightCanvas,
-  DeckProductSelectCanvas,
-  LandscapeLandingPageCanvas
+  Design3dCanvas,
+  Design2dCanvas,
+  EmptyCanvas,
+  Final3dCanvas
  } from './canvases';
 
 import {

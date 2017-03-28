@@ -5,14 +5,10 @@
 export enum SceneType { DEFAULT, BASIC }
 
 export enum CanvasType {
-    DECK_LANDING_PAGE,
-    DECK_DESIGN_2D,
-    DECK_DESIGN_3D,
-    DECK_FINAL_3D,
-    DECK_LEVEL_HEIGHT,
-    DECK_PRODUCT_SELECT,
-    DECK_BLUE_PRINT,
-    LANDSCAPE_LANDING_PAGE
+    EMPTY,
+    DESIGN_2D,
+    DESIGN_3D,
+    FINAL_3D
 }
 
 // handles selection modes

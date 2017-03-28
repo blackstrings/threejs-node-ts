@@ -5,9 +5,10 @@ import { DisplayCanvas } from './index';
 import { ShapeMaker, Shape2dTemplates } from '../shape/index';
 
 /**
- * This canvas helps the user adjust height for levels
+ * This canvas is specific to displaying a 3d deck design screen.
+ * The canvas allows allow togglign 2d and 3d.
  */
-export class DeckLevelHeightCanvas implements DisplayCanvas {
+export class Design3dCanvas implements DisplayCanvas {
 
   canAnimate: boolean;
 
@@ -20,10 +21,10 @@ export class DeckLevelHeightCanvas implements DisplayCanvas {
   }
 
   init(): void {
-    // custom settings for this canvas
-    this.threejs.uiManager.createGrid("front", 16);
+    // custom initial settings for this canvas
+    this.threejs.uiManager.createGrid("top", 16);
     this.threejs.uiManager.createAxis(Utils.feetToInches(4));
-    this.threejs.renderManager.setRenderSetting(RenderSetting.DEFAULT);  // black background
+    this.threejs.renderManager.setRenderSetting(RenderSetting.DEFAULT);  // sets black background
     this.threejs.cameraManager.perspectiveCamera.position.z = Utils.feetToInches(50);
 
     this.canAnimate = false;

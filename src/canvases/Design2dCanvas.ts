@@ -7,7 +7,7 @@ import { ShapeMaker, Shape2dTemplates, ShapeUtils, ShapeModelFactory } from '../
 /**
  * This canvas is specific to drawing 2d shapes and displaying deck templates
  */
-export class DeckDesign2dCanvas implements DisplayCanvas {
+export class Design2dCanvas implements DisplayCanvas {
 
   canAnimate: boolean;
 

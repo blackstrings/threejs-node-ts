@@ -7,7 +7,7 @@ import { ShapeMaker, Shape2dTemplates, ShapeModelFactory } from '../shape/index'
 /**
  * This canvas is specific to displaying a deck design screen
  */
-export class DeckLandingPageCanvas implements DisplayCanvas {
+export class EmptyCanvas implements DisplayCanvas {
 
   canAnimate: boolean;
 
